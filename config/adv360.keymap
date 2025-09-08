@@ -49,11 +49,11 @@
         fn {
             display-name = "Fn";
             bindings = <
-&bl BL_TOG  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &tog 1                                       &mo 3    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F12
-&bl BL_DEC  &trans  &trans  &trans  &trans  &trans  &kp F11                                      &kp F13  &trans  &trans  &trans  &trans  &trans   &trans
-&bl BL_INC  &trans  &trans  &trans  &trans  &trans  &kp F12  &trans  &trans      &trans  &trans  &kp F14  &trans  &trans  &trans  &trans  &trans   &trans
-&trans      &trans  &trans  &trans  &trans  &trans                   &trans      &trans                   &trans  &trans  &trans  &trans  &trans   &trans
-&trans      &trans  &trans  &trans  &trans          &trans   &trans  &trans      &trans  &trans  &trans           &trans  &trans  &trans  &trans   &trans
+&kp LS(LA(LC(ESCAPE)))  &kp F1             &kp F2             &kp F3                      &kp F4                       &kp F5             &tog 1                                                                                    &mo 3    &kp F6             &kp F7                    &kp F8                      &kp F9                  &kp F10                    &kp F12
+&kp LS(LA(LC(TAB)))     &kp LS(LC(LA(Q)))  &kp LS(LA(LC(W)))  &kp LS(LA(LC(E)))           &kp LS(LA(LC(R)))            &kp LS(LC(LA(T)))  &kp F11                                                                                   &kp F13  &kp RS(RA(RC(Y)))  &kp RS(RA(RC(U)))         &kp RS(RA(RC(I)))           &kp RS(RA(RC(O)))       &kp RS(RA(RC(P)))          &kp RA(RS(RC(MINUS)))
+&bl BL_INC              &kp LS(LA(LC(A)))  &kp LS(LA(LC(S)))  &kp LS(LC(LA(D)))           &kp LS(LA(LC(F)))            &kp LS(LA(LC(G)))  &kp F12  &trans  &trans                            &trans                         &trans  &kp F14  &kp RS(RA(RC(H)))  &kp RS(RC(RA(J)))         &kp RS(RA(RC(K)))           &kp RS(RA(RC(L)))       &kp RS(RA(RC(SEMICOLON)))  &kp RS(RA(RC(SQT)))
+&trans                  &kp LS(LA(LC(Z)))  &kp LA(LS(LC(X)))  &kp LS(LC(LA(C)))           &kp LS(LA(LC(V)))            &kp LS(LC(LA(B)))                   &trans                            &trans                                          &kp LS(LC(LA(N)))  &kp RS(RA(RC(M)))         &kp RS(RA(RC(COMMA)))       &kp RS(RA(RC(PERIOD)))  &kp RS(RA(RC(SLASH)))      &trans
+&trans                  &trans             &trans             &kp LS(LA(LC(LEFT_ARROW)))  &kp LS(LC(LA(RIGHT_ARROW)))                     &trans   &trans  &kp LS(LA(LC(LEFT_BRACKET)))      &kp RS(RA(RC(RIGHT_BRACKET)))  &trans  &trans                      &kp RS(RA(RC(UP_ARROW)))  &kp RS(RA(RC(DOWN_ARROW)))  &trans                  &trans                     &trans
             >;
         };
 
